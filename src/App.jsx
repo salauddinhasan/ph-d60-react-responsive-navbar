@@ -1,5 +1,6 @@
  
 import './App.css'
+import PricingOption from './PricingOption'
 
 function App() {
   
@@ -7,7 +8,9 @@ function App() {
   return (
     <>
         <div>
-          <h1 className='text-center'>helle dev</h1>
+          <p className='text-base text-center pt-4'>Simple, transparent pricing</p>
+          <h1 className='text-5xl font-medium text-center'>Pay only for what you use</h1>
+           <PricingOption></PricingOption>
         </div>
     </>
   )
